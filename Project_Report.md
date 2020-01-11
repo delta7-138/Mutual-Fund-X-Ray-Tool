@@ -19,7 +19,14 @@
 **datetime** : This module was used to increment date objects 
 
 ## **Progress of the project** ##
->
+- As of now, the user can select a scheme after which one can choose the start date and end date. 
+- An excel file for the performance of the selected scheme can be thus downloaded. 
+- This Excel File contains all the statistical quantities and ratios calculated as a result of a mathematical analysis on the raw data. 
+- One file can be downloaded one at a time.
+- There are 50 schemes as of now which can be analysed. 
+- They can only be analysed for a duration between 01-10-2014 and   
+27-12-2019
+
 ## **Future Prospects** ##
 ## **References** ##
 
