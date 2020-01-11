@@ -3,8 +3,6 @@ from django.http import HttpResponse
 from io import BytesIO
 from math import *
 from pandas import DataFrame , read_json, read_excel ,ExcelWriter
-import json
-import urllib.request
 import datetime as dt
 from openpyxl import load_workbook
 def rev(s):
