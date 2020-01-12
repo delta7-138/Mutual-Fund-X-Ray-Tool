@@ -38,12 +38,12 @@
 ---
 ## **References** ##
 
-### *Mentorship and Background details* ###
+##### *Mentorship and Background details* #####
 1. Beyond the mandatory information available to retail mutual investors on the measures , viz. point to point absolute returns, 3-year Sharpe ratios , etc.), the extent of publicly available tools that provide deep insights on ‘Absolute Risk- Adjusted Returns’ are not significant to make informed decisions. 
 
 2. The project was conducted under the **mentorship** of an ***investment advisory firm (WealthSecrets)*** that helped build an understanding of the most appropriate performance measures to be included in the MF X-Ray Tool. As such, these are the most preferred measures for financial analysts and savvy investors globally in analyzing the performance of financial assets/investment decisions.
 
-### *Links to resources* ###
+##### *Links to resources* #####
 3. [openpyxl documentation](https://openpyxl.readthedocs.io/en/stable/)
 
 4. [Stack Overflow](https://stackoverflow.com/) for further understanding the modules used.
