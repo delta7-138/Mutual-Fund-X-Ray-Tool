@@ -20,6 +20,10 @@
  
 **datetime** : This module was used to increment date objects 
 
+**urllib** : This module was used to send request to the api website and collect json files
+
+**json** : To collect the json files from the Free India Mutual Fund API.
+
 ---
 ## **Progress of the project** ##
 - As of now, the user can select a scheme after which one can choose the start date and end date. 
@@ -57,9 +61,11 @@
 
 8. [Google Fonts](https://fonts.google.com/)
 
+9. [Free India Mutual Fund API](https://www.mfapi.in/) to access NAV of schemes over a period of time
+
 ### Link to Demonstration Video ###
 
-**[Demo Video](https://drive.google.com/file/d/1s57IngN4dW8won_Q0riBLxG-tGHZh_md/view?usp=sharing)**
+**[Demo Video](https://drive.google.com/open?id=19wv3OGOTkNJTQSQ_oDAIpwPgct2X45kA)**
 
 
 ### **Absolute Risk Measures** ###

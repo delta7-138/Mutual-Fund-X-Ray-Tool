@@ -210,7 +210,7 @@ def calculate_stuff(request):
             wb1 = load_workbook("COVER SHEET - KS.xlsx")
             sheet = wb1.active
             c1 = sheet['E2']
-            c1.value = '-'
+            c1.value = dict_schemes[option]
 
             name = sheet['E1']
             name.value = option
