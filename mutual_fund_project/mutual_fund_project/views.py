@@ -142,7 +142,7 @@ def calculate_stuff(request):
         under_period_1095 = len(list(filter(lambda x:x<=6 , l_yearly)))/float(len(l_yearly))
 
         mar_thirty = [0 , 0.5 , 0.67 , gm_30]
-        mar_yearly = [0 , 18 , 24 , gm_1095]
+        mar_yearly = [0 , 19.10 , 25.97 , gm_1095]
 
         down_deviation_30 = []
         down_deviation_1095 = []
