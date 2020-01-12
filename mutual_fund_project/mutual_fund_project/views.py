@@ -128,18 +128,18 @@ def calculate_stuff(request):
         gm_coeff_var_1095 = pow(gm_std_1095 , 1/float(gm_1095))
 
         sharpe_am_30 = (am_30 - 0.5)/am_std_30
-        annual_ratio_am = sharpe_am_30 * sqrt(12)
-        sharpe_am_1095 = (am_1095 - 6)/am_std_1095
+        #annual_ratio_am = sharpe_am_30 * sqrt(12)
+        sharpe_am_1095 = (am_1095 - 19.10)/am_std_1095
 
         sharpe_gm_30 = (gm_30 - 0.5)/gm_std_30
-        annual_ratio_gm = sharpe_gm_30 * sqrt(12)
-        sharpe_gm_1095 = (gm_1095 - 6)/gm_std_1095
+        #annual_ratio_gm = sharpe_gm_30 * sqrt(12)
+        sharpe_gm_1095 = (gm_1095 - 19.10)/gm_std_1095
 
         down_period_30 = len(list(filter(lambda x:x<=0 , l_thirty)))/float(len(l_thirty))
         down_period_1095 = len(list(filter(lambda x:x<=0 , l_yearly)))/float(len(l_yearly))
 
         under_period_30 = len(list(filter(lambda x:x<=0.5 , l_thirty)))/float(len(l_thirty))
-        under_period_1095 = len(list(filter(lambda x:x<=6 , l_yearly)))/float(len(l_yearly))
+        under_period_1095 = len(list(filter(lambda x:x<=19.10 , l_yearly)))/float(len(l_yearly))
 
         mar_thirty = [0 , 0.5 , 0.67 , gm_30]
         mar_yearly = [0 , 19.10 , 25.97 , gm_1095]
